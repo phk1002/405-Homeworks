@@ -1,0 +1,28 @@
+.main-heading {color: darkgreen;
+  font-size: 70px;
+  font-weight: bold;
+  align: center;
+}
+
+.side-heading {
+  font-size: 33px;
+  font-style:italic;
+  font-weight: 300;
+  color: green
+}
+
+.img-style {
+  width: 600px
+  height:600px
+  display: block;
+}
+.description {
+  font-size:18px;
+
+}
+.steps {
+  font-size: 33px;
+  font-style:italic;
+  font-weight: 300;
+  color: green
+}
