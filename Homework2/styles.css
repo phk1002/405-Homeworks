@@ -12,9 +12,10 @@
 }
 
 .img-style {
-  width: 600px
-  height:600px
+  width: 600px;
+  height:400px;
   display: block;
+  margin: 0 auto;
 }
 .description {
   font-size:18px;
@@ -33,10 +34,22 @@
   color: green
 }
 .rice {
-  width: 64px;
-  height:64px;
+  width: 200px;
+  height:250px;
 }
 .potatoe {
   width: 64px;
   height:64px;
+}
+.table{
+margin:0 auto;
+}
+.details {
+  font-size: 33px;
+  font-style:italic;
+  font-weight: 300;
+  color: green
+}
+.directions {
+    font-size:18px;
 }
