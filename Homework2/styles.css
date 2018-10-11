@@ -1,7 +1,7 @@
 .main-heading {color: darkgreen;
   font-size: 73px;
   font-weight: bold;
-  align: center;
+  text-align: center
 }
 
 .side-heading {
@@ -55,8 +55,4 @@ margin:0 auto;
 }
 .directions {
     font-size:18px;
-}
-tr {
-  align: center;
-
 }
