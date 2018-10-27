@@ -38,14 +38,14 @@ html {
   padding: 1em;
 
 }
-.card h2 p{
+.card h2, .card p{
   margin: 0;
 }
 .card article{
   height:10em;
   background-color: rgba(0,0,0,0.5);
 }
-.card header h2{
+.card h2{
   font-size: 2em;
   line-height: 1.5em;
 
@@ -54,6 +54,7 @@ html {
   font-size: 1.5em;
   line-height:2em;
 }
-.card h2 article{
-  padding:em;
+.card article p{
+  padding:1em;
+  color: white;
 }
