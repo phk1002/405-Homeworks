@@ -45,5 +45,15 @@ article{
   background-color: rgba(0,0,0,0.5);
 }
 h2{
-  font-size: 1.667em
+  font-size: 1.667em;
+  line-height: em;
+
+}
+p{
+  font-size: 1.25em;
+  line-height:em;
+}
+h2 article{
+  padding:em;
+  font-color: white;
 }
