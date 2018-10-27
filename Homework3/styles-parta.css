@@ -9,7 +9,6 @@ html {
   background-color: #ccc;
 }
 
-
 .card{
   width: 35em;
   height: 22em;
@@ -32,4 +31,9 @@ html {
 .card article img{
   max-height: 100%;
   float: right;
+}
+
+header footer {
+  height: 
+
 }
