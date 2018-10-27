@@ -33,8 +33,9 @@ html {
   float: right;
 }
 
-.card header footer {
-  height: 4.167em;
+.card header, .card footer {
+  height: 3em;
+  padding: 1em;
 
 }
 .card h2 p{
@@ -44,14 +45,14 @@ html {
   height:10em;
   background-color: rgba(0,0,0,0.5);
 }
-.card h2{
-  font-size: 1.667em;
-  line-height: em;
+.card header h2{
+  font-size: 2em;
+  line-height: 1.5em;
 
 }
-.card p{
-  font-size: 1.25em;
-  line-height:em;
+.card footer p{
+  font-size: 1.5em;
+  line-height:2em;
 }
 .card h2 article{
   padding:em;
