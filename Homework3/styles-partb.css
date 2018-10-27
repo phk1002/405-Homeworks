@@ -1,20 +1,17 @@
 html{
     font-family: sans-serif;
-    font-size: 10px;
 }
 
 
 p{
-    /*spacing setup*/
+    /*box setup*/
    width: 200px;
-   margin: 170px auto;
-   padding: 4px;
-   line-height: 2.5em;
+   height: 75px;
    text-align: center;
 
    /* font setup */
    color: red;
-   font-size: 1.8em;
+   font-size: 1.8rem; /*10px= 1rem, so 18px =1.8rem*/
    text-shadow: 1.5px 1.5px 1px #000;
 
    /* border */
