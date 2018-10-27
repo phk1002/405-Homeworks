@@ -42,5 +42,8 @@ h2 p{
 }
 article{
   height:10em;
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
+}
+h2{
+  font-size: 1.667em
 }
