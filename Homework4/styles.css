@@ -34,13 +34,33 @@ display: flex;
   justify-content: center;
 }
 .imgwrap {
-   width: 50%; /*or whatever you choose*/
+   width: 50%;
    margin: auto;
 }
-.imgwrap img {
-   display: block;
-   width: 100%;
-   max-width: 500px; /*actual image width*/
-   height: auto; /* maintain aspect ratio*/
-   margin: auto; /*optional centering of image*/
+.container2{
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.img1
+{
+  border: solid black 1px;
+  height: 150px;
+  width: 150px;
+
+}
+.img2
+{
+  border: solid black 1px;
+  height: 150px;
+  width: 150px;
+
+}
+.img3
+{
+  border: solid black 1px;
+  height: 150px;
+  width: 150px;
+
 }
