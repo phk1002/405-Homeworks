@@ -9,20 +9,51 @@
 }
 .nav{
   flex: 0 0 50px;
-  background-color: skyblue;
+  background-color: #ADFF2F;
 
 }
 .content{
+  background color: maroon;
+  flex: 1;
+  display: flex;
+
 }
 .main{
-  flex: 0 0 50px;
-  background-color: purple;
+  background-color: #9370DB;
+  flex: 0 0 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.gallery{
+background-color:indigo;
+flex:1;
+margin: 10px;
+
+}
+.blog-post{
+background-color: AliceBlue;
+border: 1px solid black;
+flex:1;
+margin: 10px;
 }
 .side{
-  flex: 0 0 50px;
-  background-color: purple;
+  background-color: skyblue;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.side-img{
 }
 .foot{
   flex: 0 0 50px;
-  background-color: skyblue;
+  background-color: #ADFF2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 2em;
 }
