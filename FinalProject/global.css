@@ -7,7 +7,7 @@
 *,
 *::before,
 *::after {
-  boxsizing: inherit;
+  box-sizing: inherit;
 }
 
 html{
@@ -30,7 +30,7 @@ html{
 
 }
 .content{
-  background color: maroon;
+  background-color: maroon;
   flex: 1;
   display: flex;
 
