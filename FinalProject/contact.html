@@ -1,86 +1,71 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <title>Harshi</title>
 
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="contact.css">
-</head>
-<body>
-  <div class="container">
+  </head>
 
-   <nav class="nav">
-     <ul class="nav-list">
+    <body>
+      <div class="container">
 
-      <li class ="nav-item">
-        <a href= "index.html "> Who Am I </a>
-      </li>
-      <li class ="nav-item">
-        <a href= "skills.html ">Skills</a>
-      </li>
+       <nav class="nav">
+         <ul class="nav-list">
 
-      <li class ="nav-item">
-        <a href= "contact.html ">Contact</a>
-      </li>
+          <li class ="nav-item">
+            <a href= "index.html "> Who Am I </a>
+          </li>
+          <li class ="nav-item">
+            <a href= "skills.html ">Skills</a>
+          </li>
 
-      <li class ="nav-item">
-        <a href= "portfolio.html ">Portfolio</a>
-      </li>
+          <li class ="nav-item">
+            <a href= "contact.html ">Contact</a>
+          </li>
 
-     </ul>
-   </nav>
+          <li class ="nav-item">
+            <a href= "portfolio.html ">Portfolio</a>
+          </li>
 
-   <div class="content">
-     <main class="main">
-       <section class="gallery">
-         <div class="gallery-img">
-           <img src="https://via.placeholder.com/150" alt="placeholder">
+         </ul>
+       </nav>
+       <form action="/my-handling-form-page" method="post">
+
+         <div>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="user_name">
          </div>
-       </section>
-       <article class="blog-post">
-         <h1>What Is Epilepsy?</h1>
-         <h2>Epilepsy is....</h2>
-       </article>
-       <article class="blog-post">
-          <h2> How Many People Have It?</h2>
-       </article>
-     </main>
 
-      <aside class="side">
-<div class= "side-container ">
-        <h2>Symptoms</h2>
-  <div class= "img-container">
-<div class="side-img">
-  <img src="https://via.placeholder.com/150" alt="brain">
-</div>
-<div class="side-img">
-  <img src="https://via.placeholder.com/150" alt="brain">
-</div>
-<div class="side-img">
-  <img src="https://via.placeholder.com/150" alt="brain">
-</div>
-      </aside>
-    </div> <!--end content div-->
+         <div>
+           <label for="phone">Phone Number:</label>
+           <input id="phone" name="user_phone">
+         </div>
 
-  <footer class="foot">Footer
-       <span> &copy; 2018 IamTheBoss.com Inc.</span>
+         <div>
+           <label for="mail">E-mail:</label>
+           <input type="email" id="mail" name="user_mail">
+         </div>
 
-  </footer>
+         <div>
+           <label for="info">Additional Information:</label>
+           <textarea id="info" name="user_info"></textarea>
+         </div>
 
- </div> <!-- end container div-->
+         <div class="button">
+         <button type="submit">Send</button>
+       </div>
 
+       </form>
 
+      <footer class="foot">Footer
+           <span> &copy; 2018 IamTheBoss.com Inc.</span>
 
+      </footer>
 
-
-
-
-
-
-
+     </div> <!-- end container div-->
 
 
 

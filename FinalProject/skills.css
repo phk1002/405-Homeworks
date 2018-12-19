@@ -5,3 +5,17 @@ text-align: center;
 ul{
   list-style: none;
 }
+
+.skills-img{
+  height: 450px;
+  width: 350px;
+}
+img{
+  height: 150px;
+  width:200px;
+
+}
+side-img{
+  height: 200px;
+  width: 300px;
+}

@@ -43,6 +43,17 @@ html{
   justify-content: space-around;
 
 }
+.side-container{
+display:flex;
+flex-direction: column;
+margin: 0 auto;
+justify-content: space-around;
+font-size: 20px;
+}
+.side-img{
+  height: 150px;
+  width: 150px;
+}
 .gallery{
 background-color: indigo;
 flex: 1;
@@ -51,11 +62,7 @@ display: flex;
 justify-content: space-around;
 padding: 1rem;
 }
-.gallery-img img{
-  height: 350px;
-  width:350px;
 
-}
 .blog-post{
 background-color: AliceBlue;
 border: 1px solid black;
